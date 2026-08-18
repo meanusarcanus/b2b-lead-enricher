@@ -7,5 +7,6 @@
   "meta": {
     "category": "LEAD_GENERATION"
   },
-  "dockerfile": "./Dockerfile"
+  "dockerfile": "./Dockerfile",
+  "output": "./output_schema.json"
 }
