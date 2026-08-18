@@ -1,0 +1,11 @@
+{
+  "actorSpecification": 1,
+  "name": "b2b-lead-intent-enricher",
+  "title": "B2B Intent Lead Intelligence & Contact Finder",
+  "description": "Enrich company firmographics, detect buying intent signals, and extract verified decision-maker emails.",
+  "version": "1.0.0",
+  "meta": {
+    "category": "LEAD_GENERATION"
+  },
+  "dockerfile": "./Dockerfile"
+}

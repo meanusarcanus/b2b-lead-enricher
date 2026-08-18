@@ -1,0 +1,35 @@
+{
+  "title": "B2B Intent Lead Enricher Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "company_name": {
+      "title": "Company Name",
+      "type": "string",
+      "description": "Target company name.",
+      "editor": "textfield",
+      "prefill": "Apex Cloud Systems"
+    },
+    "domain": {
+      "title": "Company Domain",
+      "type": "string",
+      "description": "Target domain (e.g. apexcloud.io).",
+      "editor": "textfield",
+      "prefill": "apexcloud.io"
+    },
+    "intent_signal": {
+      "title": "Intent Trigger Signal",
+      "type": "string",
+      "description": "Buying intent signal (e.g. Series A Funded $10M).",
+      "editor": "textfield",
+      "prefill": "Series A Funded $10M"
+    },
+    "target_title": {
+      "title": "Target Decision Maker Title",
+      "type": "string",
+      "description": "Target executive job title (e.g. CTO, VP of Engineering).",
+      "editor": "textfield",
+      "prefill": "VP of Engineering"
+    }
+  }
+}
